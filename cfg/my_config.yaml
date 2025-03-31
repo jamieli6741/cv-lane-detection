@@ -1,0 +1,10 @@
+lane_detect_mode: 'perspective'  #'perspective' or 'hough'
+roi_coords : [] #[[500, 400], [900, 400], [1100, 700], [200, 700]]  # None as default, this value only for Input_Video.mp4
+pixel_points :
+    # [(128, 550), (813, 550), (440, 379), (559, 380)]  # for mov
+#     [[332, 553], [844, 553], [517, 410], [660, 410]] # for 00d8944b-e157478b.mov
+    # [(147, 474), (683, 474), (330, 337), (441, 337)]  # for input.mp4
+     [[41, 717], [1081, 717], [445, 358], [635, 358]]  # for input0.mp4
+#    [[297, 679], [1069, 679], [552, 481], [726, 481]] # for Input_Video.mp4
+actual_points : [[132, 400], [168, 400], [132, 200], [168, 200]]
+show_y: 100  # [start y coord from image bottom, show height] 50 for Input_Video.mp4
